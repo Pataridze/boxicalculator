@@ -82,8 +82,8 @@
 
 #pricetag {
   border: 1px solid black;
-  width: 160px;  
-  height: 35px;
+  width: 180px;  
+  height: 45px;
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 20px;
@@ -116,7 +116,7 @@ input {
   /* background-color: gray; */
   font-size: 14px;
   font-weight: bold;
-  padding-right: 100px;
+  /* padding-right: 100px; */
 }
 
 
