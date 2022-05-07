@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="calculator.js" defer></script>
+  </head>
+  <body>
+    <div class="parameters">
+      <!-- <h2>ყუთის ღირებულების გამოთვლა</h2> -->
+      <div id="box">
+        <form>
+            <label for="box-type">აირჩიეთ ყუთის ტიპი:</label>
+            <select name="box-type" id="box-type">
+              <option value="ტიპი 0" id="zero-selection">აირჩიე</option>
+              <option value="ტიპი 1">ტიპი 1</option>
+              <option value="ტიპი 2">ტიპი 2</option>
+              <option value="ტიპი 3">ტიპი 3</option>            
+            </select> </br></br>
+            <label for="box-width" class="top2">სიგანე მმ:</label>
+            <input type="text"  name="box-length" value=""></br>
+            <label for="box-length" class="top1">სიგრძე მმ:</label>
+            <input type="text" name="box-width value=""></br>
+            <label for="box-height" class="top3">სიმაღლე მმ:</label>
+            <input type="text" name="box-height" value="">  </br>    
+            <input id="submitBtn" type="submit" value="გამოთვლა">
+            <button id="clearBtn" onClick="window.location.reload();">გადატვირთვა</button>
+            </br>
+            <button id="pricetag">ფასი: </button>
+            <!-- <div id="pricetag">ფასი: </div> -->
+        </form>       
+          
+      </div>
+        <div class="image"></div>
+
+    </div>
+    
+ 
+  </body>
+</html>
+
+
+          <!-- <img src="https://static.wixstatic.com/media/3f654b_5b4418d61c3b493eb6ff4d00d754fd70~mv2.png/v1/fit/w_433,h_251,q_90/3f654b_5b4418d61c3b493eb6ff4d00d754fd70~mv2.png"> -->
+
+        <!-- <h3>ყუთის ღირებულებაა </h3> -->

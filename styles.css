@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+
+.parameters {
+  
+  border-radius: 20px;
+  /* float: right; */
+  width: 100%;
+  height: auto;
+  background-color: rgb(0, 255, 115);
+  border: 5px solid black;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+  overflow: auto;
+  /* text-align: center; */
+  background-image: url("background-image.jpg");
+  
+  display: block;
+  /* margin: 0, 0, 10px, 0; */
+  /* padding: 0, 0, 0, 20px;   */
+}
+
+#box {
+  /* border: 1px solid rgb(234, 10, 10); */
+  /* float: left; */
+  /* margin-left: 5px; */
+  padding-left: 20px; 
+  padding-top: 10px;
+  overflow: auto;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  /* left: 10%; */
+  /* bottom: 0;   */
+  /* top: 20px; */
+
+}
+
+.top2 {
+  margin-right: 30px;
+}
+
+.top1 {
+  margin-right: 26px;
+}
+.top3 {
+  margin-right: 13px;
+}
+#box-type {
+  font-size: 16px;
+  font-weight: bold;
+  height: 26px;
+}
+
+#box-type {
+  background-color: red;
+  color: white;
+}
+
+
+.image {
+
+  /* max-width:50%; */
+  /* border: 1px solid red; */
+  /* float: left; */
+  position: relative;
+  text-align: center;
+  /* left: 20%; */
+  /* object-fit: fill; */
+  /* max-height:50%; */
+  object-fit: contain;
+  /* text-al */
+
+}
+
+#pricetag {
+  border: 1px solid black;
+  width: 150px;  
+  height: 35px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 20px;
+  /* background-color: rgb(0, 255, 8); */
+  text-align: left;
+  padding-left: 13px;
+  padding-top: 2px;
+  /* float:right; */
+  
+}
+
+input {
+  width: 70px;
+  margin-bottom: 20px;
+  /* margin: 0px, 10px, 20px, 10px; */
+}
+
+#submitBtn {
+  width: 100px;
+  height: 30px;
+
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#clearBtn {
+  width: 100px;
+  height: 30px;
+  color: black;
+  /* background-color: gray; */
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 100px;
+}
+
+
+
+
+
