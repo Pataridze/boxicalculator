@@ -68,7 +68,8 @@ body {
 }
 
 #footercontact {
-  margin-left: 35px;
+  position:relative;
+  margin-left: 20px;
   margin-top: 15px;
   /* border: 1px solid black; */
   /* width: 20%; */
