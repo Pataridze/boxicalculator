@@ -9,7 +9,18 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="calculator.js" defer></script>
   </head>
-  <body>
+  <body class="body">
+    <div id="header">
+      <!-- <a id="boxiaddress" href="boxi.ge"><p>www.boxi.ge</p></a> -->
+      <div id="siteDetails">
+        <a href="https://meboxige.wixsite.com/my-site-4"><button id="mtavari">მთავარი</button></a>
+        <a href="https://meboxige.wixsite.com/my-site-4/about-3"><button id="thecalc">კალკულატორი</button></a>
+        <a href="https://meboxige.wixsite.com/my-site-4"><button id="about">შესახებ</button></a>
+        <a href="https://meboxige.wixsite.com/my-site-4"><button id="mtavari">კონტაქტი</button></a>
+
+
+      </div>
+    </div>
     <div class="parameters">
       <!-- <h2>ყუთის ღირებულების გამოთვლა</h2> -->
       <div id="box">
@@ -22,25 +33,35 @@
               <option value="ტიპი 3">ტიპი 3</option>            
             </select> </br></br>
             <label for="box-width" class="top2">სიგანე მმ:</label>
-            <input type="text"  name="box-length" value=""></br>
+            <input type="number"  name="box-length" value=""></br>
             <label for="box-length" class="top1">სიგრძე მმ:</label>
-            <input type="text" name="box-width value=""></br>
+            <input type="number" name="box-width value=""></br>
             <label for="box-height" class="top3">სიმაღლე მმ:</label>
-            <input type="text" name="box-height" value="">  </br>    
+            <input type="number" name="box-height" value="">  </br>    
             <input id="submitBtn" type="submit" value="გამოთვლა">
             <button id="clearBtn" onClick="window.location.reload();">გადატვირთვა</button>
             </br>
             <button id="pricetag">ფასი: </button>
             <!-- <div id="pricetag">ფასი: </div> -->
-        </form>       
-          
-      </div>
-        <div class="image"></div>
+        </form>
+        <div class="image"></div>       
+        
 
+
+    </div>
+    <div id="footer">
+          <div id="boxiaddress"><a  href="https://meboxige.wixsite.com/my-site-4">კონტაქტი</a></br></div>
+        <div id="footercontact">
+          <span>www.boxi.ge</span></br>
+          <span>Email: meboxi.ge@gmail.com</span></br>
+          <span>+995 597 279559</span></br>
+        </div>
     </div>
     
  
   </body>
+  
+
 </html>
 
 
